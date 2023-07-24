@@ -1,348 +1,39 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
   <head>
+    <meta charset="utf-8" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <title>Customer Care Login</title>
 
-    <title>Customer Care Bank index</title>
+    <link rel="stylesheet" href="assets/css/customer-care.css" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.min.js"
+    ></script>
 
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/customer-care.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
-
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
-
--->
+    <script src="http://www.modernizr.com/downloads/modernizr-latest.js"></script>
   </head>
 
-<body>
+  <body>
+    <form id="slick-login" action="dashboard.html">
+      <label for="username">username</label
+      ><input
+        type="text"
+        name="username"
+        class="placeholder"
+        placeholder="name@bank.index.co.id"
+      />
 
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  <nav class="main-nav">
-                      <!-- ***** Logo Start ***** -->
-                      <a href="index.html" class="logo">
-                         Mer'C Platform
-                      </a>
-                      <!-- ***** Logo End ***** -->
-                      <!-- ***** Menu Start ***** -->
-                      <ul class="nav">
-                          <li class="scroll-to-section"><a href="#top" class="active">Dashboard</a></li>
-                          <li><a href="complaint.html">Complaint</a></li>
-                          <li class="has-sub">
-                              <a href="javascript:void(0)">User Management</a>
-                              <ul class="sub-menu">
-                                  <li><a href="user.html">User</a></li>
-                                  <li><a href="Role.html">Role</a></li>
-                                  <li><a href="permission.html">Permission</a></li>
-                              </ul>
-                          </li>
-                          <li class="has-sub">
-                            <a href="javascript:void(0)">Master</a>
-                            <ul class="sub-menu">
-                                <li><a href="cabang.html">Branch</a></li>
-                                <li><a href="division.html">Division</a></li>
-                                <li><a href="produk_pengaduan.html">Product</a></li>
-                                <li><a href="penyebab_pengaduan.html">Reason</a></li>
-                                <li><a href="kategori.html">Category</a></li>
-                            </ul>
-                        </li>
-                          <li><a href="index.html#contact">Contact Us</a></li> 
-                      </ul>        
-                      <a class='menu-trigger'>
-                          <span>Menu</span>
-                      </a>
-                      <!-- ***** Menu End ***** -->
-                  </nav>
-              </div>
-          </div>
-      </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
-
-  <!-- ***** Main Banner Area Start ***** -->
-  <section class="section main-banner" id="top" data-section="section1">
-      <video autoplay muted loop id="bg-video">
-          <source src="assets/images/course-video.mp4" type="video/mp4" />
-      </video>
-
-      <div class="video-overlay header-text">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="caption">
-              <h6>Welcome To Mer'C Platform</h6>
-              <h2>Have problems related to Bank Index?</h2>
-              <p>This platform is available to help our customers to solve problems.<br> Immediately submit your problem to speed up its resolution. </p>
-          </div>
-              </div>
-            </div>
-          </div>
-      </div>
-  </section>
-  <!-- ***** Main Banner Area End ***** -->
-
-  <section class="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="owl-service-item owl-carousel">
-          
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-01.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>IT Division</h4>
-                <p>IT Division includes installing applications, dealing with errors that occur, being responsible for logging in employees, updating software, and other technical matters.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Operational Division</h4>
-                <p>In general, the operational part of a bank consists of settlement and clearing. The main job is to take care of the entry and exit of money transfers, transaction settlements, bonds and securities.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Finance Division</h4>
-                <p>its activities range from investing, credit monitoring, bill payments to asset purchases. Therefore, the Finance Division is responsible for fund management activities</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Business Division</h4>
-                <p>Formaintain relationships between customers or clients. Collaborate with other divisions to meet market or client needs. Develop and present the company's business development plan.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>HR Division</h4>
-                <p>His duties range from implementing company policies, regulations and strategies for employees, to maintaining good relations between employees and the company.</p>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="apply-now" id="apply">
-    <div class="div">
-      <p>&nbsp;</p>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6" >
-          <div class="accordions is-first-expanded">
-            <article class="accordion">
-                <div class="accordion-head">
-                    <span>About Bank Index</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-                <div class="accordion-body">
-                    <div class="content">
-                        <p>Bank Index is a national private commercial bank (BUSN) which was established in Jakarta on July 30, 1992. Until now, Bank Index has 50 office networks, all of which are connected online and spread across a number of regions. In addition to developing office networks, Bank Index also continuously develops Information Systems and Technology (TSI) with the main focus on electronic delivery channels.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="accordion">
-                <div class="accordion-head">
-                    <span>About Customer Care</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-                <div class="accordion-body">
-                    <div class="content">
-                        <p>Customer care is all efforts made by the company to meet customer needs and satisfaction, as well as maintain good relationships with customers.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="accordion">
-                <div class="accordion-head">
-                    <span>Mer'C Platform Function</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-                <div class="accordion-body">
-                    <div class="content">
-                        <p>Mer'C platform is a page for filing problems related to the services provided by Bank Index. Customers can contact customer service at each branch, and they will submit a problem report to the central Bank Index to be resolved.</p>
-                    </div>
-                </div>
-            </article>
-        </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="our-facts">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-12">
-              <h2>Statistic On Mer'C Platform</h2>
-            </div>
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-12">
-                  <div class="count-area-content percentage">
-                    <div class="count-digit">94</div>
-                    <div class="count-title">complaints received</div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="count-area-content">
-                    <div class="count-digit">126</div>
-                    <div class="count-title">Complaints On Progress</div>
-                  </div>
-                </div>
-                    <div class="col-12">
-                      <div class="count-area-content new-students">
-                        <div class="count-digit">2345</div>
-                        <div class="count-title">complaints resolved</div>
-                      </div>
-                    </div>
-              </div>
-            </div>
-            
-          </div>
-        </div> 
-      </div>
-    </div>
-  </section>
-
-  <section class="contact-us" id="contact">
-    
-        <div class="col-lg-6">
-          <div class="right-info">
-            <ul>
-              <li>
-                <h6>Phone Number</h6>
-                <span>1-500-670</span>
-              </li>
-              
-              <li>
-                <h6>Email Address</h6>
-                <span>callcenter@bankindex.co.id</span>
-              </li>
-              <li>
-                <h6>Street Address</h6>
-                <span>Jl.M.H. Thamrin Kav. 57. Jakarta Pusat</span>
-              </li>
-              <li>
-                <h6>Website URL</h6>
-                <span>www.bankindex.co.id</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      
-    </div>
-  </section>
-
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
-
-        var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
-
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
-
-        };
-
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
-
-        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
-          e.preventDefault();
-          showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function () {
-          checkSection();
-        });
-    </script>
-</body>
-
-</body>
+      <label for="password">password</label
+      ><input
+        type="password"
+        name="password"
+        class="placeholder"
+        placeholder="password"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+  </body>
 </html>

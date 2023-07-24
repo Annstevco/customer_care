@@ -207,13 +207,13 @@ header
 */
 
 .sub-header {
-  background-color: #1f272b;
+  background-color: #f2f5f6;
   position: relative;
   z-index: 1111;
 }
 
 .sub-header .left-content p {
-  color: #fff;
+  color: #eff6f5;
   padding: 8px 0px;
   font-size: 13px;
 }
@@ -254,7 +254,7 @@ header
 }
 
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #f5f0f0!important;
 }
 
 .background-header .logo,
@@ -337,7 +337,7 @@ header
   font-weight: 500;
   font-size: 14px;
   text-transform: uppercase;
-  color: #fff;
+  color: #f2ecec;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
